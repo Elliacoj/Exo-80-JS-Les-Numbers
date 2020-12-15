@@ -19,7 +19,7 @@ else {
 let exo3 = document.getElementById("parse-float");
 let ecrit = exo3.innerHTML.substring(parseFloat(exo3.innerHTML).toString().length);
 
-exo3.innerHTML = (parseFloat(exo3.innerHTML) * 28) + ecrit
+exo3.innerHTML = (parseFloat(exo3.innerHTML) * 28) + ecrit;
 
 let exo4 = document.getElementById("parse-int");
 exo4.innerHTML = (Math.trunc(parseFloat(exo4.innerHTML) / 28) + exo4.innerHTML.substring(parseFloat(exo4.innerHTML).toString().length));
