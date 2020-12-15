@@ -1,6 +1,6 @@
 let exo1 = document.getElementById("is-integer");
 
-if(Number.isInteger(exo1.value)) {
+if(Number.isInteger(parseFloat(exo1.innerHTML))) {
     exo1.innerHTML += " est un nombre entier.";
 }
 else {
